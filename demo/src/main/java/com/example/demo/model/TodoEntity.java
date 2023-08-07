@@ -16,4 +16,4 @@ public class TodoEntity {
 	private String title; // Todo 타이틀
 	private boolean done; // Todo Checked
 	
-}
+}	

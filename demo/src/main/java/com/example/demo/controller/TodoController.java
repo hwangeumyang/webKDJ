@@ -21,7 +21,7 @@ public class TodoController {
     public ResponseEntity<?> responseEntityWithTodo() {
         TodoDTO todo = TodoDTO.builder().id("id1").title("title1").done(true).build();
 
-        return ResponseEntity.ok().body(response);
+        return ResponseEntity.ok().body(todo);
     }
 
     @GetMapping("/testService")
