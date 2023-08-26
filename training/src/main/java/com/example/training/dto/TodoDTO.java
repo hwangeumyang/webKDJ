@@ -1,14 +1,13 @@
-package com.example.demo.dto;
+package com.example.training.dto;
 
-import com.example.demo.model.TodoEntity;
-import lombok.AllArgsConstructor;
+import com.example.training.model.TodoEntity;
 import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
-@Builder
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Data
 public class TodoDTO {
 	private String id;
